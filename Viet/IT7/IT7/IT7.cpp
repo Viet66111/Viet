@@ -6,7 +6,7 @@ int main()
 {
     // char : kiểu dữ liệu ký tự, có kích thước 1 byte
     char t = 205;
-    char b = 186;
+    char j = 186;
     char c = 201;
     char d = 200;
     char e = 187;
@@ -35,5 +35,19 @@ int main()
     // kiểu dữ liệu logic (bool = boolean) : True(Đúng) & False(Sai)
     // kiểu dữ liệu logic :Phép toán AND (và) (&&)
     // kiểu dữ liệu logic :Phép toán OR ( hoặc) (||)
+    // kiểu dữ liệu void
+    bool y = false && true;
+    cout << " y = " << y << endl;
+
+    int a = 30;
+    int b = 7;
+
+    cout << "a + b = " << a + b << endl;
+    cout << "a - b = " << a - b << endl;
+    cout << "b - a = " << b - a << endl;
+    cout << "a * b = " << a * b << endl;
+    cout << "a / b = " << a / (double)b << endl;
+    cout << "a % b = " << a % b << endl;
+
 }
 
